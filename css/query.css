@@ -1,0 +1,30 @@
+@media (max-width:56em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width:50.9375em) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media (max-width:39.125em) {
+    html {
+        font-size: 30%;
+    }
+
+    .choose-list {
+        display: flex;
+        list-style: none;
+        gap: 4.8rem;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:29.375em) {
+    html {
+        font-size: 20%;
+    }
+}

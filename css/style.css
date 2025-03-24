@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: rubik, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+nav {
+    height: 9.6rem;
+    padding: 1.2rem 4.8rem;
+    margin-bottom: 4.8rem;
+
+}
+
+.company-name {
+    color: #fa5252;
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+
+.hero-section {
+    padding: 0 4.8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+}
+
+#double-text {
+    align-self: center;
+}
+
+.hero-p {
+    font-size: 2rem;
+    color: #343a40;
+}
+
+.hero-H {
+    font-size: 4.8rem;
+    font-weight: 900;
+    color: #343a40;
+    margin-bottom: 3.2rem;
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+span {
+    color: #fa5252;
+}
+
+/* Services */
+.section {
+    padding: 10.6rem 4.8rem;
+
+}
+
+.secondary-text {
+    font-size: 3.8rem;
+    font-weight: 900;
+    color: #fa5252;
+    margin-bottom: 3.6rem;
+}
+
+.tertiary-text {
+    font-size: 2.8rem;
+    color: #343a40;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.service-item {
+    display: flex;
+}
+
+.service-img {
+    width: 75%;
+    border-radius: 10px;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    /* flex-direction: column; */
+    gap: 3.8rem;
+}
+
+.service-textbox {
+    align-self: center;
+
+}
+
+
+/* Why choose us */
+.choose {
+    padding-top: 2rem;
+}
+
+
+
+.choose-icon {
+    background-color: #ffc9c9;
+    height: 4.8rem;
+    width: 4.8rem;
+    padding: 0.6rem;
+    border-radius: 50%;
+    color: #fa5252;
+    margin-bottom: 3.2rem;
+}
+
+.choose-list {
+    display: flex;
+    list-style: none;
+    gap: 4.8rem;
+    /* flex-direction: column; */
+}
+
+.choose-item {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.choose-h {
+    color: #343a40;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+}
+
+/* Footer */
+footer {
+    background-color: #fa5252;
+    padding: 0 4.8rem;
+    width: 100%;
+    color: white;
+}
+
+.footer-h {
+    color: white;
+    margin-bottom: 2.8rem;
+    padding-top: 2.8rem;
+}
+
+.size-6 {
+    width: 2.4rem;
+    color: white;
+}
+
+.footer-p {
+    color: white;
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+
+.contact-item {
+    display: flex;
+    gap: 2rem;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.year {
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 3.8rem 0;
+}
